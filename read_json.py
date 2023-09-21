@@ -11,6 +11,7 @@ def setNewAddress(json_dict):
 
     return json_dict
 
+
 def writeToJSON(entry):
     with open(JSONFILEPATH, 'w') as data: 
         json.dump(entry, data, indent=4)
