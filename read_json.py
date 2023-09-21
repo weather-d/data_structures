@@ -18,7 +18,7 @@ def writeToJSON(entry):
 
 def readFromJSON():
     with open(JSONFILEPATH, 'r') as data: 
-        json_dict = json.loads(data.read())
+        json_dict = json.load(data)
 
     return json_dict
 
@@ -29,5 +29,3 @@ if answer == 'y':
     writeToJSON(setNewAddress(readFromJSON()))
 
 pprint(readFromJSON())
-
-
