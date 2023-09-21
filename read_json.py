@@ -28,5 +28,9 @@ answer = input("Would you like to add a network? (y/n)")
 
 if answer == 'y': 
     writeToJSON(setNewAddress(readFromJSON()))
+elif answer =='n':
+   pass
+else:
+    print("Not y/n. You don't get to add now.")
 
 pprint(readFromJSON())
