@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<addresses>
+		<ip>172.16.0.2</ip>
+		<netmask>255.255.255.0</netmask>
+	</addresses>
+	<addresses>
+		<ip>172.16.0.3</ip>
+		<netmask>255.255.255.0</netmask>
+	</addresses>
+	<addresses>
+		<ip>172.16.0.4</ip>
+		<netmask>255.255.255.0</netmask>
+	</addresses>
+	<addresses>
+		<ip>172.16.0.5</ip>
+		<netmask>255.255.255.0</netmask>
+	</addresses>
+	<addresses>
+		<ip>a</ip>
+		<netmask>a</netmask>
+	</addresses>
+</root>
