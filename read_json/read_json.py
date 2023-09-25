@@ -1,7 +1,7 @@
 import json
 from pprint import pprint
 
-JSONFILEPATH = "data_structures/json_example.json"
+JSONFILEPATH = "data_structures/read_json/json_example.json"
 
 def setNewAddress(json_dict):
     ip = input("IP Address: ")

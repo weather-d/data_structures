@@ -1,7 +1,7 @@
 import csv
 
 
-CSVFILEPATH = "data_structures/csv_example.csv"
+CSVFILEPATH = "data_structures/read_csv/csv_example.csv"
 
 
 def csvToList(fileName):

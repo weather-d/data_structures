@@ -1,7 +1,7 @@
 import xmltodict
 from pprint import pprint
 
-XMLFILEPATH = "data_structures/xml_example.xml"
+XMLFILEPATH = "data_structures/read_xml/xml_example.xml"
 
 def setNewAddress(xml_dict):
     ip = input("IP Address: ")
