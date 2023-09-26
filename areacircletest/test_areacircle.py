@@ -11,7 +11,6 @@ class TestAreaCircle(unittest.TestCase):
 
     def test_values(self):
         self.assertRaises(ValueError, area_of_circle, -1)
-
         
 if __name__ == "__main__":
     unittest.main()
